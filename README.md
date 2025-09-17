@@ -50,11 +50,6 @@ composer install
 php artisan key:generate
 ```
 
-### (Opcional) Popular banco com dados fake
-```bash
-php artisan db:seed
-```
-
 ### Rodando o servidor
 ```bash
 php artisan serve
@@ -79,5 +74,13 @@ Copie o arquivo `.env.example` para `.env` (ou crie um novo `.env`).
 ```bash
 npm run dev
 ```
+
+## Na Aplicação
+
+### Crie uma conta
+Crie uma conta em http://localhost:5173/register
+
+### Faça login
+Faça login em http://localhost:5173/login
 
 Acesse `http://localhost:5173` no navegador.
