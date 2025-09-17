@@ -1,0 +1,49 @@
+# =====================
+# Backend (Laravel)
+# =====================
+/backend/vendor/
+/backend/node_modules/
+/backend/.env
+/backend/.idea/
+/backend/.vscode/
+/backend/storage/*.key
+/backend/storage/framework/cache/*
+/backend/storage/framework/views/*
+/backend/storage/logs/*
+/backend/bootstrap/cache/*.php
+/backend/public/hot
+/backend/public/storage
+/backend/.phpunit.result.cache
+
+# =====================
+# Frontend (Node/React/Next.js)
+# =====================
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/.turbo/
+/frontend/.pnp.*.js
+/frontend/yarn-error.log
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# =====================
+# Sistema / IDE
+# =====================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# Mac/Linux swap
+# =====================
+*~
